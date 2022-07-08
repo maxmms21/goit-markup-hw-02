@@ -2,63 +2,92 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    
 }
+
 body
-{color: #212121;
-background-color: #FFFFFF;    
-color:var(--primary-text-color)
-font-family: Roboto, sans-serif;
-letter-spacing: 0.03em
+{ font-family:'Roboto',sans-serif ;
+   color: #212121;
+   background-color: #FFFFFF;
+   letter-spacing: 0.03em
+  
 }
-  /*Logo*/
-.logo
-{color: #000000;
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19px;
-       
+
+ul
+{list-style: none;
 
 }
+a{text-decoration: none;}
+
+
+text-decoration: none 
+  /*Logo*/
+  .site-nav list
+  { 
+    font-family: 'Raleway';
+    color: #212121;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+
+.logo
+{ font-family: 'Raleway';
+    color: #212121;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+
 .logo .logo-accent
- {color: #2196F3;
- font-family: 'Raleway';
+{font-family: 'Raleway';
+ color: #2196F3;
  font-weight: 700;
  font-size: 26px;
  line-height: 1.19px;
-  
- }
-
- .link:hover
-  {color: #2196F3;
-
-  }
-  .link:focus
-  {color: #212121;
-
-  }
-
- ul{list-style: none;
 }
- .link-nav .link
- {color:var(--primary-text-color)
+.link-navlist .link
+{color: #2196F3;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
- }
- .auth-nav .link
- {
-     color:var(--title-text-color)
+letter-spacing: 0.02em;
+}
+.link-navlist
+{--primary-text-color: #212121;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.auth-nav
+{color: #2196F3;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+
+.auth-nav .link
+ { 
+color: #757575;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
  }
  .hero-title
-{color: #FFFFFF;
-background-color: #2F303A;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-
+{   color: #FFFFFF;
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+>>>>>>> Stashed changes
 }
 
 
@@ -78,7 +107,12 @@ line-height: 1.14;
 
 }  
 button
+<<<<<<< Updated upstream
  { color: #000;
+=======
+ { color: #FFFFFF;
+    background-color: #2196F3;
+>>>>>>> Stashed changes
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88
@@ -86,10 +120,64 @@ button
     text-align: center;
     letter-spacing: 0.06em;
     text-align: center;
+<<<<<<< Updated upstream
 }
 .button-1
 {
     
+=======
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+   -moz-focus-inner ;
+    border: 0;
+}
+
+.section .title
+{   color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+}
+
+.section .text
+{ color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;   
+}
+
+.section-title
+{   color: #212121; 
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;   
+}
+
+.name
+{   color: #212121; 
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+      
+}
+
+.proffession
+{ color: #757575;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+>>>>>>> Stashed changes
 
 }
 
@@ -107,8 +195,53 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 
 
 
+<<<<<<< Updated upstream
+=======
+.link-nav list .link
+{ color: #2196F3;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contaks
+{
+color: rgba(255, 255, 255, 0.6);
+background: #2F303A;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.map
+{   color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.mail
+{   color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.tel 
+{   color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+>>>>>>> Stashed changes
